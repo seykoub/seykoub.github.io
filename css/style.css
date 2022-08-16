@@ -1,0 +1,146 @@
+body{
+    font-family: 'Berlin sans FBs','Trebuchet MSs','Arial';
+    border:1px solid #424580;
+}
+.size40{
+    font-size: 40px;
+}
+.size20{
+    font-size: 20px;
+}
+.colorBlueDark{
+    color:#283645;
+}
+.colorBlueLight{
+    color:#1490D7;
+}
+.colorOrange{
+    color:#FF8000;
+}
+colorWhite{
+    color:white;
+}
+.text-center{
+    text-align:center;
+}
+.bg-colorBlue3{
+    background-color: #424580;
+}
+h2{
+    padding:0px;
+    margin:30Px 0px;
+}
+.borderBottomDark{
+    border-bottom: 1px solid #283645;
+}
+.gauche{
+    float:left;
+}
+.clear{
+    clear:both;
+}
+
+/******
+** Header
+********/
+
+.header{
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+.header .photoPerso, .header .infosPerso{
+    width:33.3%;
+}
+.header .photoPerso img{
+    height:200px;
+}
+.header .posteRecherche{
+    flex: auto;
+}
+/**.gauche{
+    float:left;
+}
+
+    .clear{
+        clear:both;
+    }
+/************
+** FIN Header
+*********/
+
+
+/************
+** Footer
+*********/
+
+.footer{
+    padding:10px;
+    margin-top: 50px;
+}
+/************
+** Fin footer
+*********/
+
+
+/************
+** Corps
+*********/
+
+.corps{
+    padding:0% 2% ;
+}
+.domaineCompétence{
+    width:100%;
+}
+
+.domaineCompétence table td, .domaineCompétence table th{
+    padding:10px 20px;
+    border:1px solid #283645;
+    width:33%;
+}
+.col1{
+    width:20%;
+
+}
+.col2{
+    width:80%;
+  
+}
+label{
+    display:block;
+    float:left;
+    width:20%;
+    text-align:right;
+    padding-right:20px;
+}
+.buttonContact{
+    margin-left:23%;
+    width:200px;
+}
+
+/************
+** Fin corps
+*********/
+@media(max-width:768px){
+    .size40{
+        font-size: 22px;
+    }
+    .size20{
+        font-size: 14px;
+    }
+    .header .photoPerso img{
+        height:100px;
+    }
+}
+@media(max-width:769px) and (max-width:1300px){
+ 
+    .col1{
+        width:35%;
+    
+    }
+    .col2{
+        width:65%;
+      
+    }
+}
